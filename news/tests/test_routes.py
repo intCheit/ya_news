@@ -10,7 +10,7 @@ User = get_user_model()
 
 
 class TestHomePage(TestCase):
-        # Вынесем ссылку на домашнюю страницу в атрибуты класса.
+    # Вынесем ссылку на домашнюю страницу в атрибуты класса.
     HOME_URL = reverse('news:home')
 
     @classmethod
